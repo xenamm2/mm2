@@ -1,9 +1,3 @@
-local function b()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/xenamm2/main/refs/heads/main/test'))()
-end
-local function a()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/xenamm2/main/refs/heads/main/afs"))()
-end
-task.spawn(b)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/xenamm2/main/refs/heads/main/test'))()
 task.wait(0.5)
-task.spawn(a)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xenamm2/main/refs/heads/main/afs"))()
