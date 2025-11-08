@@ -1,3 +1,1 @@
-loadstring(game:HttpGet('https://raw.githubusercontent.com/xenamm2/main/refs/heads/main/test'))()
-task.wait(0.5)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xenamm2/main/refs/heads/main/afs"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/xenamm2/main/refs/heads/main/farmtest'))()
