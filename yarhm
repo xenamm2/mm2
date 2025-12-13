@@ -3,7 +3,7 @@ local src1 = ""
 local CoreGui = game:GetService("StarterGui")
 
 pcall(function() 
-    src1 = game:HttpGet("", false)
+    src1 = game:HttpGet("https://raw.githubusercontent.com/xenamm2/main/refs/heads/main/test", false)
 end)
 
 pcall(function() 
